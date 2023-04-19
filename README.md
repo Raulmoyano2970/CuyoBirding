@@ -1,6 +1,6 @@
 # Responsive Page Cuyobirding
 
 ## HOST
-
-###  Framework
-SASS
+https://cuyo-birding.vercel.app/#galeria
+### Utilice para realizar
+HTML/CSS/JAVASCRIPT/SASS
