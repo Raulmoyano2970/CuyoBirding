@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+        <script src="./assets/js/galeria.js" defer></script>
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img src="assets/img/cuyobirding,png.png" width="100" alt=""></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                        <li class="nav__item"><a href="#galeria" class="nav__link">Galeria</a></li>
+                        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li> -->
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Cuyo</span><br><span>Birding.</span></h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Ver más</a>
+                    </div>
+
+                    <img src="assets/img/picaflor_martin_perez_2-removebg.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">Sobre mí</h2>
+ <!--===== CARROUSEL =====-->
+<div class="contenedorcarrousel">
+
+    <div class="contenedor" id="about">
+		<main class="contenido-principal">
+			<img src="./assets/img/martinmontaña.jpeg" alt="Dome of the German Bundestag" class="contenido-principal__imagen">
+			<div class="contenido-principal__contenedor">
+				<!-- <h2 class="contenido-principal__titulo">Sobre Mí</h2> -->
+				<p class="contenido-principal__resumen">
+                    Mi nombre es Martin soy un apasionado por la naturaleza,
+                     un aficionado de la fotografía y 
+                    un guarda parque de la reserva natural Villavicencio en Mendoza, Argentina.
+					A lo largo de los años, visite muchos parques nacionales, reservas naturales y áreas protegidas
+                     en todo el país, y he tenido la oportunidad de fotografiar una gran variedad de aves, plantas
+                      y animales en su hábitat natural. Siempre visito los senderos y caminos de estos lugares con mi
+                       cámara en mano, y he pasado horas observando y esperando pacientemente para capturar la imagen
+                        perfecta.
+                        A través de mis fotografías, logro capturar la belleza
+                         y la diversidad de la naturaleza, y he compartido sus imágenes con otros
+                          amantes de la naturaleza a través de exposiciones, galerías y redes sociales.
+                           Mis fotos han sido reconocidas y premiadas en varios concursos de fotografía, 
+                           y han aparecido en revistas y publicaciones especializadas en naturaleza.
+
+
+
+
+                        Para mí, tomar fotos de la naturaleza es una forma de conectar con la vida silvestre, de explorar
+                         y conocer
+                         nuevos lugares y de compartir mi pasión con otros.
+
+                    
+				</p>
+			</div>
+		</main>
+
+	</div>
+</div>
+
+<!--===== GALERIA =====-->
+
+
+
+<section class="galeria section" id="galeria">
+    <h2 class="section-title2
+    "> Galeria</h2>
+    <div class="overlay">
+        <div class="slideshow">
+            <span class="btn_cerrar">&times;</span>
+            <div class="botones atras">
+               <i class="mdi mdi-arrow-left-bold-circle-outline"></i>
+            </div>
+            <div class="botones adelante">
+                <i class="mdi mdi-arrow-right-bold-circle-outline"></i>
+             </div>
+    <img src="" alt="" id="img_slideshow">
+        </div>
+    </div>
+    <section class="galeria2">
+<div class="columna">
+    <img src="./assets/img/pagina/1.jpg" alt="" data-img-mostrar="0">
+    <img src="./assets/img/pagina/2.JPG" alt="" data-img-mostrar="1">
+    <img src="./assets/img/pagina/3.JPG" alt="" data-img-mostrar="2">
+    <img src="./assets/img/pagina/4.JPG" alt="" data-img-mostrar="3">
+    <img src="./assets/img/pagina/5.JPG" alt="" data-img-mostrar="4">
+</div>
+<div class="columna">
+    <img src="./assets/img/pagina/6.JPG" alt="" data-img-mostrar="5">
+    <img src="./assets/img/pagina/7.JPG" alt="" data-img-mostrar="6">
+    <img src="./assets/img/pagina/8.JPG" alt="" data-img-mostrar="7">
+    <img src="./assets/img/pagina/9.JPG" alt="" data-img-mostrar="8">
+    <img src="./assets/img/pagina/27.JPG" alt="" data-img-mostrar="9">
+</div>
+<div class="columna">
+    <img src="./assets/img/pagina/11.JPG" alt="" data-img-mostrar="10">
+    <img src="./assets/img/pagina/12.JPG" alt="" data-img-mostrar="11">
+    <img src="./assets/img/pagina/13.JPG" alt="" data-img-mostrar="12">
+    <img src="./assets/img/pagina/14.JPG" alt="" data-img-mostrar="13">
+    <img src="./assets/img/pagina/15.JPG" alt="" data-img-mostrar="14">
+</div>
+<div class="columna">
+    <img src="./assets/img/pagina/16.JPG" alt="" data-img-mostrar="15">
+    <img src="./assets/img/pagina/17.JPG" alt="" data-img-mostrar="16">
+    <img src="./assets/img/pagina/18.JPG" alt="" data-img-mostrar="17">
+    <img src="./assets/img/pagina/19.JPG" alt="" data-img-mostrar="18">
+    <img src="./assets/img/pagina/26.JPG" alt="" data-img-mostrar="19">
+</div>
+<div class="columna">
+    <img src="./assets/img/pagina/21.JPG" alt="" data-img-mostrar="20">
+    <img src="./assets/img/pagina/22.JPG" alt="" data-img-mostrar="21">
+    <img src="./assets/img/pagina/23.JPG" alt="" data-img-mostrar="22">
+    <img src="./assets/img/pagina/24.JPG" alt="" data-img-mostrar="23">
+    <img src="./assets/img/pagina/25.JPG" alt="" data-img-mostrar="24">
+</div>
+
+
+
+</section>
+
+</section>
+
+
+
+
+
+            <!--===== CONTACT =====-->
+            <!-- <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+                <div class="social_contact">
+                    <div class="mediasocial">
+                <a href="https://www.facebook.com/profile.php?id=100068426209196" class="footer_social"><i class='bx bxl-facebook' ></i></a>
+                <h4>/cuyo.birding.3</h4>
+            </div>
+            <div  class="mediasocial">
+                <a href="https://www.instagram.com/cuyo.birding.3/" class="footer_social"><i class='bx bxl-instagram' ></i></a>
+                <h4>/cuyo.birding.3</h4>
+            </div>
+            <div  class="mediasocial">
+                <a href="https://wa.me/+5492613478665" class="footer_social"><i class='bx bxl-whatsapp' ></i></a>
+                <h4>+5492613478665</h4>
+            </div>
+                <div class="mediasocial">
+                <a href="mailto:gurygura35@gmail.com" class="footer_social"><i class='bx bx-envelope'></i></a>
+                <h4>gurygura35@gmail.com</h4>
+            </div>
+            </div>
+            </section> -->
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">CUYO BIRDING ® 2023 
+
+                    </h2>
+                    <p class="footer__text">Todos los derechos reservados.</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">VOLVER</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Inicio</a></li>
+                        <li><a href="#about" class="footer__link">Sobre mi</a></li>
+                        <li><a href="#galeria" class="footer__link">Galeria</a></li>
+                        <!-- <li><a href="#Contact" class="footer__link">Contacto</a></li> -->
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">MIS REDES</h2>
+                    <a href="https://www.facebook.com/profile.php?id=100068426209196" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/cuyo.birding.3/" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://wa.me/+5492613478665" class="footer__social"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="mailto:gurygura35@gmail.com" class="footer__social"><i class='bx bx-envelope'></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/app.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>
