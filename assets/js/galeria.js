@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
  let imagenes = [
-{img: "../../assets/img/pagina/1.JPG"},
+{img: "/assets/img/pagina/1.JPG"},
 {img: "../../assets/img/pagina/2.JPG"},
 {img: "../../assets/img/pagina/3.JPG"},
 {img: "../../assets/img/pagina/4.JPG"},
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
 {img: "../../assets/img/pagina/16.JPG"},
 {img: "../../assets/img/pagina/17.JPG"},
 {img: "../../assets/img/pagina/18.JPG"},
-{img: "../../assets/img/pagina/19.JPG"},
+{img: "/assets/img/pagina/19.JPG"},
 {img: "../../assets/img/pagina/26.JPG"},
 {img: "../../assets/img/pagina/21.JPG"},
 {img: "../../assets/img/pagina/22.JPG"},
