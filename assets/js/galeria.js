@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
  let imagenes = [
-{img: "/assets/img/pagina/1.JPG"},
+{img: "../../assets/img/pagina/1.JPG"},
 {img: "../../assets/img/pagina/2.JPG"},
 {img: "../../assets/img/pagina/3.JPG"},
 {img: "../../assets/img/pagina/4.JPG"},
