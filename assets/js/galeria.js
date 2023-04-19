@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
 {img: "../../assets/img/pagina/17.JPG"},
 {img: "../../assets/img/pagina/18.JPG"},
 {img: "/assets/img/pagina/19.JPG"},
-{img: "../../assets/img/pagina/26.JPG"},
+{img: "/assets/img/pagina/26.JPG"},
 {img: "../../assets/img/pagina/21.JPG"},
 {img: "../../assets/img/pagina/22.JPG"},
 {img: "../../assets/img/pagina/23.JPG"},
